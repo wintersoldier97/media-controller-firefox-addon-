@@ -38,7 +38,7 @@
   "content_scripts": [
     {
       "all_frames": true,
-      "matches": ["*://www.youtube.com/watch*" , "*://kissanime.io/*" , "*://9anime.to/*"],
+      "matches": ["*://www.youtube.com/watch*", "*://9anime.to/*"],
       "js": ["input.js"]
     }
   ]

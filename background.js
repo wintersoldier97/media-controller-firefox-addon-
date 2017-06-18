@@ -99,6 +99,7 @@ browser.webRequest.onBeforeRequest.addListener(
   {urls: ["<all_urls>"],types:["image"]}
 );
 */
+/*
 var pattern = "https://mdn.mozillademos.org/*";
 //var pattern = "<all_urls>";
 var redirect_url = "https://techreport.com/forums/styles/canvas/theme/images/no_avatar.jpg";
@@ -116,3 +117,4 @@ browser.webRequest.onBeforeSendHeaders.addListener(
   {urls:[pattern], types:["image"]},
   ["blocking"]
 );
+*/
